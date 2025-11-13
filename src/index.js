@@ -5,7 +5,8 @@ import ReactDOM from 'react-dom/client';
 // import Header from './keeperApp/Header';
 // import Footer from "./keeperApp/Footer";
 // import Note from "./keeperApp/Note";
-import Contact from './cards/Contact';
+// import Contact from './cards/Contact';
+import AllContactsList from './Contact_Cards/AllContactsList';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,7 +17,11 @@ root.render(
     {/* <Header />
     <Note />
     <Footer /> */}
-    <Contact/>
+    {/* <Contact/> */}
+    <AllContactsList />
+  
+
+
 
     
   </React.StrictMode>
