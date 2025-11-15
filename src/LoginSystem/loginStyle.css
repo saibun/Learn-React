@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #50A3A2;
+    font-style: "McLaren", san-serif;
+    
+}
+.container{
+   
+    margin: 220px auto 0;
+    width: 250px;
+    text-align: center;
+}
+h1{
+    color: #FFFFFF;
+}
+.details{
+    
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+input, button{
+    margin-bottom: 15px;
+    padding: 15px;
+   border: 1px solid #A9D1D1;
+   border-radius: 2px;
+   text-align: center;
+   font-size: 1em;
+}
+input{
+    background-color: #72B4B4;
+}
+button{
+    color: #72B4B4;
+    background-color: #FFFFFF;
+}
