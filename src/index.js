@@ -7,7 +7,8 @@ import ReactDOM from 'react-dom/client';
 // import Note from "./keeperApp/Note";
 // import Contact from './cards/Contact';
 //import AllContactsList from './Contact_Cards/AllContactsList';
-import WelcomePage from './LoginSystem/WelcomePage';
+//import WelcomePage from './LoginSystem/WelcomePage';
+import Count from './count_increase_decrease/count';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -20,7 +21,8 @@ root.render(
     <Footer /> */}
     {/* <Contact/> */}
     {/* <AllContactsList /> */}
-    <WelcomePage />
+    {/* <WelcomePage /> */}
+    <Count/>
   
 
 
