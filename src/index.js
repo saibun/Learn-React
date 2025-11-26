@@ -8,7 +8,8 @@ import ReactDOM from 'react-dom/client';
 // import Contact from './cards/Contact';
 //import AllContactsList from './Contact_Cards/AllContactsList';
 //import WelcomePage from './LoginSystem/WelcomePage';
-import Count from './count_increase_decrease/count';
+//import Count from './count_increase_decrease/count';
+import Clock from './DigitalClock/clock';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -22,7 +23,8 @@ root.render(
     {/* <Contact/> */}
     {/* <AllContactsList /> */}
     {/* <WelcomePage /> */}
-    <Count/>
+    {/* <Count/> */}
+    <Clock />
   
 
 
