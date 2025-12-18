@@ -1,0 +1,32 @@
+body{
+    background-color: #50A3A2;
+}
+.container{
+    margin: auto;
+    width: 300px;
+    text-align: center;
+    margin-top: 200px;
+}
+.formField{
+   
+    display: flex;
+    flex-direction: column;
+}
+input{
+    border: 1px solid #ffff;
+    padding: 15px 10px;
+    text-align: center;
+    background-color: #72B4B4;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+button{
+    border: 1px solid #ffff;
+    padding: 15px 10px;
+    background-color: #ffff;
+    color: #50A3A2;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}

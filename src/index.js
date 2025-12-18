@@ -10,8 +10,8 @@ import ReactDOM from 'react-dom/client';
 //import WelcomePage from './LoginSystem/WelcomePage';
 //import Count from './count_increase_decrease/count';
 // import Clock from './DigitalClock/clock';
-import Destructure from './JS_Destructuring/destructure';
-
+// import Destructure from './JS_Destructuring/destructure';
+import Event from "./EventHandlingReact/event"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -26,7 +26,8 @@ root.render(
     {/* <WelcomePage /> */}
     {/* <Count/> */}
     {/* <Clock /> */}
-    <Destructure />
+    {/* <Destructure /> */}
+    <Event />
   
 
 

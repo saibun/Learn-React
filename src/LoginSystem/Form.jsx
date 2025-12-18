@@ -8,6 +8,6 @@ function Form(props) {
       
       <button>{props.status ? "Login":"Register"}</button>
     </form>
-  );
+  ); 
 }
 export default Form;
