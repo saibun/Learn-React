@@ -7,7 +7,7 @@ body{
     text-align: center;
     margin-top: 200px;
 }
-.formField{
+form{
    
     display: flex;
     flex-direction: column;
