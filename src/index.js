@@ -11,7 +11,8 @@ import ReactDOM from 'react-dom/client';
 //import Count from './count_increase_decrease/count';
 // import Clock from './DigitalClock/clock';
 // import Destructure from './JS_Destructuring/destructure';
-import Event from "./EventHandlingReact/event"
+// import Event from "./EventHandlingReact/event"
+import FullName from './EventHandlingReact/fullName';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -27,7 +28,8 @@ root.render(
     {/* <Count/> */}
     {/* <Clock /> */}
     {/* <Destructure /> */}
-    <Event />
+    {/* <Event /> */}
+    <FullName/>
   
 
 
