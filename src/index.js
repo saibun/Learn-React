@@ -12,7 +12,8 @@ import ReactDOM from 'react-dom/client';
 // import Clock from './DigitalClock/clock';
 // import Destructure from './JS_Destructuring/destructure';
 // import Event from "./EventHandlingReact/event"
-import FullName from './EventHandlingReact/fullName';
+// import FullName from './EventHandlingReact/fullName';
+import TODO from './TODO_List/todo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -29,7 +30,8 @@ root.render(
     {/* <Clock /> */}
     {/* <Destructure /> */}
     {/* <Event /> */}
-    <FullName/>
+    {/* <FullName/> */}
+    <TODO/>
   
 
 
