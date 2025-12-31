@@ -1,18 +1,26 @@
 import "./todoStyle.css"
 import { useState } from "react";
-import TodoList from "./todoList";
+// import TodoList from "./todoList";
+import InputArea from "./inputArea";
+import DeleteTodo from "./todoItemDelete";
 function TODO(){
-    const [taskName, setTaskName]= useState("");
+    
     const [allTaskList,setAllTaskList]=useState([])
-    function handleChange(e){
-        const value = e.target.value;
-        setTaskName(value)
-    }
-    function handleClick(){
+    
+    function handleClick(taskName,setTaskName){
         setAllTaskList((preVal)=>{
             return [...preVal,taskName]
         });
-        setTaskName("");
+        
+        
+
+    }
+    function deleteItems(pos){
+        setAllTaskList((preVal)=>{
+            return preVal.filter((items,index)=>{
+                return index !==pos;
+            })
+        })
         
 
     }
@@ -21,14 +29,12 @@ function TODO(){
             <div className="header">
                 <h1 className="headingName">To-Do List</h1>
             </div>
-            <div className="form">
-                <input type="text" value={taskName} onChange={handleChange}/>
-                <button onClick={handleClick}>Add</button>
-            </div>
+            <InputArea click={handleClick} />
             <div>
                 <ul>
-                    {allTaskList.map((value)=>{
-                        return <TodoList text={value}/>
+                    {allTaskList.map((value,index)=>{
+                        // return <TodoList text={value}/>
+                        return <DeleteTodo key={index} id={index} text={value} onCheck={deleteItems}/>
                     })}
                                                       
                 </ul> 
