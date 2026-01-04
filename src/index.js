@@ -2,9 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 // import Greetings from './Greetings';
 // import App from './react_componant/App';
-// import Header from './keeperApp/Header';
-// import Footer from "./keeperApp/Footer";
-// import Note from "./keeperApp/Note";
+import KeeperApp from "./keeperApp/keeperApp";
 // import Contact from './cards/Contact';
 //import AllContactsList from './Contact_Cards/AllContactsList';
 // import WelcomePage from './LoginSystem/WelcomePage';
@@ -13,16 +11,14 @@ import ReactDOM from 'react-dom/client';
 // import Destructure from './JS_Destructuring/destructure';
 // import Event from "./EventHandlingReact/event"
 // import FullName from './EventHandlingReact/fullName';
-import TODO from './TODO_List/todo';
+// import TODO from './TODO_List/todo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <Greetings />
     <App /> */}
-    {/* <Header />
-    <Note />
-    <Footer /> */}
+    <KeeperApp />
     {/* <Contact/> */}
     {/* <AllContactsList /> */}
     {/* <WelcomePage /> */}
@@ -31,7 +27,7 @@ root.render(
     {/* <Destructure /> */}
     {/* <Event /> */}
     {/* <FullName/> */}
-    <TODO/>
+    {/* <TODO/> */}
   
 
 

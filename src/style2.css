@@ -34,7 +34,7 @@ footer p{
 
 }
 .note{
-    border: 1px solid black;
+    border: none;
     border-radius: 7px;
     background-color:#fff;
     box-shadow: 0 2px 5px #ccc;
@@ -42,6 +42,7 @@ footer p{
     width: 240px;
     margin: 16px;
     float: left;
+    height: 100px;
     
 }
 .note h1{
@@ -54,4 +55,52 @@ footer p{
     word-wrap: pre-wrap;
     overflow-wrap: break-word;
 
+}
+button{
+    float: right;
+}
+.delete{
+    color: #F5BA13;
+    background: transparent;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    
+}
+.title-notes{
+    position: relative;
+    border: 1px solid black;
+    width: 500px;
+    margin: 30px auto 20px auto;
+    background: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    
+}
+.title{
+    width: 100%;
+    padding: 5px;
+    font-size: 1.2rem;
+    border: none;
+    font-family: inherit;
+    outline: none;
+}
+.take-note{
+    width: 100%;
+    outline: none;
+    resize: none;
+    border: none;
+    padding: 5px;
+    font-size: 1.2rem;
+    font-family: inherit;
+}
+.add{
+    background-color: #F5BA13;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 45%;
+    cursor: pointer;
 }

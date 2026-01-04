@@ -1,9 +1,12 @@
 import "../style2.css"
-function Note(){
+function Note(props){
     return (
         <div className="note">
-            <h1>This is note title</h1>
-            <p>This is note statement</p>
+            <h1>{props.title}</h1>
+            <p>{props.desc}</p>
+            <button className="delete" onClick={()=>{
+                props.remove(props.id)
+            }} >DELETE</button>
         </div>
     )
 }
